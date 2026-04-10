@@ -380,7 +380,7 @@ export const clientInfo = {
       { label: "Done" },
     ],
     appointmentsTitle: "Current Appointments",
-    loadingText: "Fetching data....",
+    loadingText: "Fetching data...",
     emptyText: "No records found.",
   },
 };
