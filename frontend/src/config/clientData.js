@@ -368,7 +368,7 @@ export const clientInfo = {
       { label: "Confirmed" }
     ],
     appointmentsTitle: "Appointments",
-    loadingText: "Loading appointments....",
+    loadingText: "Loading appointments..",
     emptyText: "No appointments yet"
   }
 };
