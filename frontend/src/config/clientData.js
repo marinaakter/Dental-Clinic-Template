@@ -384,6 +384,6 @@ export const clientInfo = {
     ],
     appointmentsTitle: "Patient Appointments",
     loadingText: "Loading data....",
-    emptyText: "No data available",
+    emptyText: "No data available.",
   },
 };
