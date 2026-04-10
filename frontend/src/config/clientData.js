@@ -363,7 +363,7 @@ export const clientInfo = {
         "Qualified, professional, and compassionate dentists ready to serve you.",
     },
     stats: [
-      { value: "5+", label: "Expert Doctors" },
+      { value: "6+", label: "Expert Doctors" },
       { value: "5000+", label: "Total Patients" },
       { value: "12+", label: "Years Experience" },
     ],
