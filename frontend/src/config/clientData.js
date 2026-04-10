@@ -364,7 +364,7 @@ export const clientInfo = {
     },
     stats: [
       { value: "6+", label: "Expert Doctors" },
-      { value: "5000+", label: "Total Patients" },
+      { value: "6000+", label: "Total Patients" },
       { value: "12+", label: "Years Experience" },
     ],
     cta: {
