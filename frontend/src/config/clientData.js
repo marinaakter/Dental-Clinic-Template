@@ -379,7 +379,7 @@ export const clientInfo = {
       { label: "Completed" },
     ],
     appointmentsTitle: "Lead List",
-    loadingText: "Loading...",
+    loadingText: "Loading.....",
     emptyText: "No leads available",
   },
 };
