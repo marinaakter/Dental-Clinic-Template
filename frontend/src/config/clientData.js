@@ -2,22 +2,22 @@ import { Award, Clock, Users } from "lucide-react";
 
 export const clientInfo = {
   brand: {
-    name: "Ortho Dental Clinic",
-    logoPrefix: "Ortho",
+    name: "Alam Dental Clinic",
+    logoPrefix: "Alam",
     logoSuffix: "Dental Clinic",
     area: "Dhanmondi",
     location: "Dhaka",
-    tagline: "Premium Dental Care in Dhaka",
+    tagline: "Trusted Dental Care in Dhaka",
     description:
-      "Experience world-class dental care at Ortho Dental Clinic. Where cutting-edge technology meets compassionate service for your perfect smile.",
+      "Experience world-class dental care at Alam Dental Clinic, where modern technology meets compassionate service for your healthiest smile.",
     awardLabel: "Certified Excellence",
     awardTitle: "Best Dental Clinic in Dhaka 2024",
     awardSource: "Bangladesh Dental Association",
     addressLines: ["House 12, Road 5, Dhanmondi,", "Dhaka 1205, Bangladesh"],
     phone: "+880 1700-000000",
     phoneHref: "tel:+8801700000000",
-    email: "info@orthodentalclinic.com",
-    emailHref: "mailto:info@orthodentalclinic.com",
+    email: "info@alamdentalclinic.com",
+    emailHref: "mailto:info@alamdentalclinic.com",
     workingHours: {
       weekdays: "Sat - Thu: 9AM - 7PM",
       friday: "Friday: Closed",
@@ -27,7 +27,7 @@ export const clientInfo = {
     },
     map: {
       src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14607.426789022658!2d90.37166743082826!3d23.746506839048946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8b33cffc3fb%3A0x4a826f475fd312af!2sDhanmondi%2C%20Dhaka%2C%20Bangladesh!5e0!3m2!1sen!2sus!4v1709900000000!5m2!1sen!2sus",
-      title: "Ortho Dental Clinic Location"
+      title: "Alam Dental Clinic Location"
     },
     socialLinks: [
       { name: "Facebook", href: "https://facebook.com" },
@@ -259,7 +259,7 @@ export const clientInfo = {
     hoursTitle: "Working Hours",
     map: {
       src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14607.426789022658!2d90.37166743082826!3d23.746506839048946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8b33cffc3fb%3A0x4a826f475fd312af!2sDhanmondi%2C%20Dhaka%2C%20Bangladesh!5e0!3m2!1sen!2sus!4v1709900000000!5m2!1sen!2sus",
-      title: "Ortho Dental Clinic Location"
+      title: "Alam Dental Clinic Location"
     }
   },
   servicesGrid: {
@@ -270,7 +270,7 @@ export const clientInfo = {
     bookButtonLabel: "Book This Service"
   },
   whyChooseUs: {
-    eyebrow: "Why Ortho Dental Clinic",
+    eyebrow: "Why Alam Dental Clinic",
     titlePrefix: "Why Choose",
     titleAccent: "Us",
     features: [
@@ -293,7 +293,7 @@ export const clientInfo = {
     ]
   },
   whatsapp: {
-    headerTitle: "Ortho Dental Clinic",
+    headerTitle: "Alam Dental Clinic",
     headerSubtitle: "Typically replies instantly",
     greeting: "Hi there! 👋",
     prompt:
@@ -306,8 +306,8 @@ export const clientInfo = {
       { id: 4, text: "What services do you offer?", emoji: "🦷" },
       { id: 5, text: "I need pricing information", emoji: "💰" }
     ],
-    quickMessagePrefix: "Hello Ortho Dental Clinic!",
-    customMessage: "Hello Ortho Dental Clinic! I'd like to know more about your services.",
+    quickMessagePrefix: "Hello Alam Dental Clinic!",
+    customMessage: "Hello Alam Dental Clinic! I'd like to know more about your services.",
     startChatLabel: "Start Chat",
     ariaLabel: "Open WhatsApp chat",
     whatsappNumber: "8801700000000",
@@ -359,7 +359,7 @@ export const clientInfo = {
     }
   },
   adminPage: {
-    titlePrefix: "Ortho Dental Clinic",
+    titlePrefix: "Alam Dental Clinic",
     titleAccent: "Admin",
     logoutLabel: "Logout",
     stats: [
