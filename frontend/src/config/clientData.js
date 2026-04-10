@@ -383,7 +383,7 @@ export const clientInfo = {
       { label: "Finished" },
     ],
     appointmentsTitle: "Patient Appointments",
-    loadingText: "Loading data...",
+    loadingText: "Loading data....",
     emptyText: "No data available",
   },
 };
