@@ -279,7 +279,7 @@ export const clientInfo = {
     emailTitle: "Email",
     hoursTitle: "Working Hours",
     map: {
-      src: "http://googleusercontent.com/maps.google.com/rafi-dental-location",
+      src: "www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d243693.0693940436!2d90.1145965412588!3d23.788978258675044!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c6bb16fb9c0f%3A0xe1d54e013dd4b8f0!2sRafi%20Dental%20Care!5e1!3m2!1sen!2sbd!4v1775922098981!5m2!1sen!2sbd",
       title: "Rafi Dental Map",
     },
   },
