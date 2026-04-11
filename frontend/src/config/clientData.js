@@ -2,22 +2,25 @@ import { Award, Clock, Users } from "lucide-react";
 
 export const clientInfo = {
   brand: {
-    name: "Saafwan Dental & Ortho Dontics",
-    logoPrefix: "Saafwan",
-    logoSuffix: "Dental & Ortho",
-    area: "Location Area", // যেমন: Uttara বা Banani
-    location: "City Name, Dhaka",
-    tagline: "Precision Orthodontics & Comprehensive Dental Care",
+    name: "Rafi Dental Clinic | Dhaka",
+    logoPrefix: "Rafi",
+    logoSuffix: "Dental Clinic",
+    area: "Singair",
+    location: "Manikgonj, Dhaka",
+    tagline: "Professional Dental Care & Complete Oral Health Solutions",
     description:
-      "At Saafwan Dental & Ortho Dontics, we specialize in smile transformations. From advanced orthodontics to general dentistry, we provide expert care with a touch of perfection.",
-    awardLabel: "Orthodontic Specialist",
-    awardTitle: "Excellence in Orthodontic Care 2025",
-    awardSource: "Bangladesh Orthodontic Society",
-    addressLines: ["Clinic Address Line 1,", "Area Name, Dhaka, Bangladesh"],
-    phone: "+880 1900-000000", // অরিজিনাল নাম্বার বসিয়ে নিন
-    phoneHref: "tel:+8801900000000",
-    email: "info@saafwandental.com",
-    emailHref: "mailto:info@saafwandental.com",
+      "At Rafi Dental Clinic, we provide high-quality dental services with a focus on patient comfort and advanced treatment procedures. Your smile is our priority.",
+    awardLabel: "Dental Specialist",
+    awardTitle: "Excellence in Dental Care 2025",
+    awardSource: "Bangladesh Dental Society",
+    addressLines: [
+      "Rafi Dental Clinic,",
+      "Singair, Manikgonj, Dhaka, Bangladesh",
+    ],
+    phone: "+880 1689-598021",
+    phoneHref: "tel:+8801689598021",
+    email: "drrasedulislam@gmail.com",
+    emailHref: "mailto:drrasedulislam@gmail.com",
     workingHours: {
       weekdays: "Sat - Thu: 11AM - 9PM",
       friday: "Friday: Closed",
@@ -26,13 +29,13 @@ export const clientInfo = {
       fridayStatus: "Closed",
     },
     map: {
-      src: "http://googleusercontent.com/maps.google.com/saafwan-location",
-      title: "Saafwan Dental Location",
+      src: "http://googleusercontent.com/maps.google.com/rafi-dental-location",
+      title: "Rafi Dental Location",
     },
     socialLinks: [
-      { name: "Facebook", href: "https://facebook.com/saafwandental" },
-      { name: "Instagram", href: "https://instagram.com/saafwandental" },
-      { name: "Twitter", href: "https://twitter.com/saafwandental" },
+      { name: "Facebook", href: "https://www.facebook.com/rafidentalclinic" },
+      { name: "Instagram", href: "https://instagram.com/rafidental" },
+      { name: "Twitter", href: "https://twitter.com/rafidental" },
     ],
     navigation: {
       links: [
@@ -51,12 +54,12 @@ export const clientInfo = {
       { name: "Contact Us", path: "/contact" },
     ],
     serviceLinks: [
-      "Orthodontic Braces",
-      "Invisalign Treatment",
-      "Teeth Alignment",
-      "Jaw Correction",
-      "Cosmetic Filling",
+      "Root Canal Treatment",
       "Dental Implants",
+      "Teeth Scaling",
+      "Tooth Extraction",
+      "Cosmetic Filling",
+      "Orthodontic Braces",
     ],
     legalLinks: [
       { name: "Privacy Policy", path: "/privacy" },
@@ -141,24 +144,24 @@ export const clientInfo = {
   },
   hero: {
     title: {
-      prefix: "Perfect",
-      line: "Alignment",
+      prefix: "Healthy",
+      line: "Smiles",
       accent: "Expert",
       suffix: "Care",
     },
     ctas: {
       primary: "Start Transformation",
-      secondary: "Our Specialties",
+      secondary: "Our Services",
     },
     image: {
       src: "https://images.unsplash.com/photo-1598256989800-fe5f95da9787?w=800&h=1000&fit=crop",
-      alt: "Saafwan Orthodontics Specialist",
+      alt: "Rafi Dental Clinic Specialist",
     },
   },
   stats: [
     {
-      value: "1500+",
-      label: "Braces Cases",
+      value: "2000+",
+      label: "Happy Patients",
       icon: Users,
       iconClassName: "text-teal",
       badgeClassName: "bg-teal/10",
@@ -180,53 +183,53 @@ export const clientInfo = {
   ],
   servicesPage: {
     hero: {
-      eyebrow: "Our Focus",
-      titlePrefix: "Orthodontic &",
+      eyebrow: "Our Services",
+      titlePrefix: "General &",
       titleAccent: "Dental",
       description:
-        "Specialized in straightening smiles and improving oral health through cutting-edge orthodontic solutions.",
+        "Comprehensive dental care including root canal, scaling, extraction, and surgery to keep your teeth healthy.",
     },
     card: {
       buttonLabel: "Learn More",
     },
     cta: {
-      titlePrefix: "Ready for a Straighter",
+      titlePrefix: "Ready for a Brighter",
       titleAccent: "Smile?",
       description:
-        "Consult with our orthodontist today and discover the best options for you.",
+        "Consult with our specialists today and discover the best dental options for you.",
       buttonLabel: "Get Appointment",
     },
   },
   appointmentPage: {
     hero: {
-      eyebrow: "Book Consult",
+      eyebrow: "Book Visit",
       titlePrefix: "Plan Your",
       titleAccent: "Treatment",
       description:
-        "Your journey to a perfect smile starts here. Schedule your consultation today.",
+        "Your journey to a perfect smile starts here. Schedule your dental consultation today.",
     },
     sidebar: {
       helpTitle: "Need Guidance?",
-      callUsLabel: "Call Office",
+      callUsLabel: "Call Clinic",
       workingHoursLabel: "Clinic Timing",
       locationLabel: "Our Address",
       whyTitle: "Why Choose Us?",
       trustTitle: "Expert Hands",
-      trustDescription: "Specialized orthodontic care",
+      trustDescription: "Specialized dental and oral care",
     },
     features: [
-      "Initial smile assessment",
-      "Flexible installment plans",
-      "Latest orthodontic tools",
+      "Initial dental check-up",
+      "Pain-free treatments",
+      "Advanced dental technology",
     ],
   },
   contactPage: {
     hero: {
       eyebrow: "Contact Us",
       titlePrefix: "Visit",
-      titleAccent: "Saafwan",
+      titleAccent: "Rafi Dental",
       description:
-        "Reach out to us for any queries related to braces or general dental care.",
+        "Reach out to us for any queries related to dental care or appointments.",
     },
     form: {
       title: "Enquire About Treatment",
@@ -246,26 +249,26 @@ export const clientInfo = {
       placeholders: {
         name: "Full name",
         phone: "+880 1...",
-        email: "your@email.com",
-        message: "e.g. Interested in braces",
+        email: "drrasedulislam@gmail.com",
+        message: "e.g. Interested in scaling or filling",
       },
       successToast: "Enquiry sent!",
     },
     info: {
-      title: "Contact Saafwan",
-      addressTitle: "Our Office",
+      title: "Contact Rafi Dental",
+      addressTitle: "Our Clinic",
       phoneTitle: "Call Now",
       emailTitle: "Write to Us",
     },
   },
   footer: {
     brandDescription:
-      "Transforming smiles with specialized orthodontic and dental care in Dhaka.",
+      "Transforming smiles with expert dental care in Singair, Manikgonj.",
     quickLinksTitle: "Navigation",
     servicesTitle: "Specialties",
     contactTitle: "Reach Us",
     copyrightPrefix: "©",
-    copyrightSuffix: "Saafwan Dental & Ortho Dontics. All Rights Reserved.",
+    copyrightSuffix: "Rafi Dental Clinic. All Rights Reserved.",
   },
   contactStrip: {
     eyebrow: "Find Us",
@@ -276,8 +279,8 @@ export const clientInfo = {
     emailTitle: "Email",
     hoursTitle: "Working Hours",
     map: {
-      src: "http://googleusercontent.com/maps.google.com/saafwan-location",
-      title: "Saafwan Dental Map",
+      src: "http://googleusercontent.com/maps.google.com/rafi-dental-location",
+      title: "Rafi Dental Map",
     },
   },
   servicesGrid: {
@@ -288,43 +291,44 @@ export const clientInfo = {
     bookButtonLabel: "Book Visit",
   },
   whyChooseUs: {
-    eyebrow: "The Saafwan Way",
-    titlePrefix: "Why Saafwan",
+    eyebrow: "The Rafi Way",
+    titlePrefix: "Why Rafi",
     titleAccent: "Dental",
     features: [
       {
-        title: "Orthodontic Experts",
-        description: "Specialized focus on jaw and teeth alignment.",
+        title: "Expert Dentists",
+        description: "Specialized focus on general and surgical dentistry.",
       },
       {
-        title: "Advanced Braces",
-        description: "From metal to invisible aligners, we have it all.",
+        title: "Modern Equipment",
+        description: "Equipped with the latest tools for accurate results.",
       },
       {
         title: "Personalized Care",
-        description: "Customized treatment plans for every unique smile.",
+        description: "Customized treatment plans for every unique case.",
       },
       {
-        title: "Hygiene Standard",
-        description: "Top-tier sterilization for every procedure.",
+        title: "Top-tier Sterilization",
+        description:
+          "Maintaining extreme hygiene standards for all procedures.",
       },
     ],
   },
   whatsapp: {
-    headerTitle: "Saafwan Dental",
-    headerSubtitle: "Orthodontic Support",
-    greeting: "Hello! Ready for a transformation? 👋",
-    prompt: "Interested in braces or have a dental question?",
+    headerTitle: "Rafi Dental",
+    headerSubtitle: "Dental Support",
+    greeting: "Hello! Ready for a smile makeover? 👋",
+    prompt: "Have a dental question or need an appointment?",
     quickMessagesTitle: "FAQs",
     quickMessages: [
-      { id: 1, text: "What is the cost of braces?", emoji: "🦷" },
-      { id: 2, text: "Do you have clear aligners?", emoji: "✨" },
+      { id: 1, text: "What is the cost of scaling?", emoji: "🦷" },
+      { id: 2, text: "Do you offer root canal?", emoji: "✨" },
     ],
-    quickMessagePrefix: "Hello Saafwan Dental!",
-    customMessage: "I'd like to consult about braces at your clinic.",
+    quickMessagePrefix: "Hello Rafi Dental!",
+    customMessage: "I'd like to consult about dental care at your clinic.",
     startChatLabel: "Chat via WhatsApp",
     ariaLabel: "WhatsApp Support",
-    whatsappNumber: "8801900000000",
+    whatsappNumber: "8801689598021",
     accentColor: "#25D366",
     accentHoverColor: "#20BD5A",
   },
@@ -337,7 +341,7 @@ export const clientInfo = {
       date: "Date",
       time: "Time",
     },
-    contactPrompt: "Questions? Call Saafwan at",
+    contactPrompt: "Questions? Call Rafi Dental at",
     doneLabel: "Done",
   },
   doctorCard: {
@@ -355,23 +359,23 @@ export const clientInfo = {
     hero: {
       eyebrow: "The Experts",
       titlePrefix: "Specialized",
-      titleAccent: "Orthodontists",
+      titleAccent: "Dentists",
       description:
         "Our team focuses on clinical excellence and patient comfort.",
     },
     stats: [
-      { value: "5+", label: "Doctors" },
+      { value: "3+", label: "Doctors" },
       { value: "2000+", label: "Success Stories" },
       { value: "10+", label: "Years Experience" },
     ],
     cta: {
-      title: "Not Sure About Braces?",
+      title: "Not Sure About Treatment?",
       description: "Our doctors can provide a preliminary assessment today.",
       buttonLabel: "Book Now",
     },
   },
   adminPage: {
-    titlePrefix: "Saafwan",
+    titlePrefix: "Rafi Dental",
     titleAccent: "Admin Portal",
     logoutLabel: "Logout",
     stats: [
