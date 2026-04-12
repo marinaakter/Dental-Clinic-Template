@@ -2,25 +2,25 @@ import { Award, Clock, Users } from "lucide-react";
 
 export const clientInfo = {
   brand: {
-    name: "Rafi Dental Clinic | Dhaka",
-    logoPrefix: "Rafi",
+    name: "A to Z Dental Clinic | Dhaka",
+    logoPrefix: "A to Z",
     logoSuffix: "Dental Clinic",
-    area: "Singair",
-    location: "Manikgonj, Dhaka",
+    area: "Kawlar (Bawrar Teck)",
+    location: "Dakshinkhan, Dhaka, Bangladesh",
     tagline: "Professional Dental Care & Complete Oral Health Solutions",
     description:
-      "At Rafi Dental Clinic, we provide high-quality dental services with a focus on patient comfort and advanced treatment procedures. Your smile is our priority.",
+      "At A to Z Dental Clinic, we provide high-quality dental services with a focus on patient comfort and advanced treatment procedures. Your smile is our priority.",
     awardLabel: "Dental Specialist",
     awardTitle: "Excellence in Dental Care 2025",
     awardSource: "Bangladesh Dental Society",
     addressLines: [
-      "Rafi Dental Clinic,",
-      "Singair, Manikgonj, Dhaka, Bangladesh",
+      "A to Z Dental Clinic, Manan Plaza,",
+      "Kawlar (Bawrar Teck), Dakshinkhan, Dhaka, Bangladesh",
     ],
-    phone: "+880 1689-598021",
-    phoneHref: "tel:+8801689598021",
-    email: "drrasedulislam@gmail.com",
-    emailHref: "mailto:drrasedulislam@gmail.com",
+    phone: "+880 1764-393507",
+    phoneHref: "tel:+8801764393507",
+    email: "info@atozdental.com", // আপনি চাইলে drrasedulislam@gmail.com রাখতে পারেন
+    emailHref: "mailto:info@atozdental.com",
     workingHours: {
       weekdays: "Sat - Thu: 11AM - 9PM",
       friday: "Friday: Closed",
@@ -29,13 +29,16 @@ export const clientInfo = {
       fridayStatus: "Closed",
     },
     map: {
-      src: "http://googleusercontent.com/maps.google.com/rafi-dental-location",
-      title: "Rafi Dental Location",
+      src: "http://googleusercontent.com/maps.google.com/atoz-dental-location",
+      title: "A to Z Dental Location",
     },
     socialLinks: [
-      { name: "Facebook", href: "https://www.facebook.com/rafidentalclinic" },
-      { name: "Instagram", href: "https://instagram.com/rafidental" },
-      { name: "Twitter", href: "https://twitter.com/rafidental" },
+      {
+        name: "Facebook",
+        href: "https://www.facebook.com/profile.php?id=61584618136769",
+      },
+      { name: "Instagram", href: "https://instagram.com/atozdental" },
+      { name: "Twitter", href: "https://twitter.com/atozdental" },
     ],
     navigation: {
       links: [
@@ -67,6 +70,7 @@ export const clientInfo = {
     ],
   },
   theme: {
+    // ... theme কন্টেন্ট একই থাকবে ...
     colors: {
       background: "bg-pearl",
       surface: "bg-white",
@@ -88,6 +92,7 @@ export const clientInfo = {
       borderInverse: "border-pearl/10",
     },
     hero: {
+      // ... পূর্বের হিরো সেকশন স্টাইলসমূহ ...
       sectionClassName: "relative min-h-screen bg-pearl overflow-hidden pt-20",
       backgroundDecorationsClassName: "absolute inset-0 overflow-hidden",
       backgroundAccentTopClassName:
@@ -155,7 +160,7 @@ export const clientInfo = {
     },
     image: {
       src: "https://images.unsplash.com/photo-1598256989800-fe5f95da9787?w=800&h=1000&fit=crop",
-      alt: "Rafi Dental Clinic Specialist",
+      alt: "A to Z Dental Clinic Specialist",
     },
   },
   stats: [
@@ -227,7 +232,7 @@ export const clientInfo = {
     hero: {
       eyebrow: "Contact Us",
       titlePrefix: "Visit",
-      titleAccent: "Rafi Dental",
+      titleAccent: "A to Z Dental",
       description:
         "Reach out to us for any queries related to dental care or appointments.",
     },
@@ -249,13 +254,13 @@ export const clientInfo = {
       placeholders: {
         name: "Full name",
         phone: "+880 1...",
-        email: "drrasedulislam@gmail.com",
+        email: "info@atozdental.com",
         message: "e.g. Interested in scaling or filling",
       },
       successToast: "Enquiry sent!",
     },
     info: {
-      title: "Contact Rafi Dental",
+      title: "Contact A to Z Dental",
       addressTitle: "Our Clinic",
       phoneTitle: "Call Now",
       emailTitle: "Write to Us",
@@ -263,12 +268,12 @@ export const clientInfo = {
   },
   footer: {
     brandDescription:
-      "Transforming smiles with expert dental care in Singair, Manikgonj.",
+      "Transforming smiles with expert dental care in Kawlar, Dakshinkhan.",
     quickLinksTitle: "Navigation",
     servicesTitle: "Specialties",
     contactTitle: "Reach Us",
     copyrightPrefix: "©",
-    copyrightSuffix: "Rafi Dental Clinic. All Rights Reserved.",
+    copyrightSuffix: "A to Z Dental Clinic. All Rights Reserved.",
   },
   contactStrip: {
     eyebrow: "Find Us",
@@ -280,7 +285,7 @@ export const clientInfo = {
     hoursTitle: "Working Hours",
     map: {
       src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d243693.0693940436!2d90.1145965412588!3d23.788978258675044!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c6bb16fb9c0f%3A0xe1d54e013dd4b8f0!2sRafi%20Dental%20Care!5e1!3m2!1sen!2sbd!4v1775922098981!5m2!1sen!2sbd",
-      title: "Rafi Dental Map",
+      title: "A to Z Dental Map",
     },
   },
   servicesGrid: {
@@ -291,8 +296,8 @@ export const clientInfo = {
     bookButtonLabel: "Book Visit",
   },
   whyChooseUs: {
-    eyebrow: "The Rafi Way",
-    titlePrefix: "Why Rafi",
+    eyebrow: "The A to Z Way",
+    titlePrefix: "Why A to Z",
     titleAccent: "Dental",
     features: [
       {
@@ -315,7 +320,7 @@ export const clientInfo = {
     ],
   },
   whatsapp: {
-    headerTitle: "Rafi Dental",
+    headerTitle: "A to Z Dental",
     headerSubtitle: "Dental Support",
     greeting: "Hello! Ready for a smile makeover? 👋",
     prompt: "Have a dental question or need an appointment?",
@@ -324,11 +329,11 @@ export const clientInfo = {
       { id: 1, text: "What is the cost of scaling?", emoji: "🦷" },
       { id: 2, text: "Do you offer root canal?", emoji: "✨" },
     ],
-    quickMessagePrefix: "Hello Rafi Dental!",
+    quickMessagePrefix: "Hello A to Z Dental!",
     customMessage: "I'd like to consult about dental care at your clinic.",
     startChatLabel: "Chat via WhatsApp",
     ariaLabel: "WhatsApp Support",
-    whatsappNumber: "8801689598021",
+    whatsappNumber: "8801764393507",
     accentColor: "#25D366",
     accentHoverColor: "#20BD5A",
   },
@@ -341,7 +346,7 @@ export const clientInfo = {
       date: "Date",
       time: "Time",
     },
-    contactPrompt: "Questions? Call Rafi Dental at",
+    contactPrompt: "Questions? Call A to Z Dental at",
     doneLabel: "Done",
   },
   doctorCard: {
@@ -375,7 +380,7 @@ export const clientInfo = {
     },
   },
   adminPage: {
-    titlePrefix: "Rafi Dental",
+    titlePrefix: "A to Z Dental",
     titleAccent: "Admin Portal",
     logoutLabel: "Logout",
     stats: [
