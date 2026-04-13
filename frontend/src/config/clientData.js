@@ -2,25 +2,25 @@ import { Award, Clock, Users } from "lucide-react";
 
 export const clientInfo = {
   brand: {
-    name: "আমার ডাক্তার | My Doctor",
-    logoPrefix: "আমার",
-    logoSuffix: "ডাক্তার",
+    name: "Dhaka Clinic & Nursing Home",
+    logoPrefix: "Dhaka",
+    logoSuffix: "Clinic",
     area: "Kawlar (Bawrar Teck)",
     location: "Dakshinkhan, Dhaka, Bangladesh",
     tagline: "Professional Dental Care & Complete Oral Health Solutions",
     description:
-      "At আমার ডাক্তার (My Doctor), we provide high-quality dental services with a focus on patient comfort and advanced treatment procedures. Your smile is our priority.",
+      "At Dhaka Clinic & Nursing Home, we provide high-quality dental services with a focus on patient comfort and advanced treatment procedures. Your smile is our priority.",
     awardLabel: "Dental Specialist",
     awardTitle: "Excellence in Dental Care 2025",
     awardSource: "Bangladesh Dental Society",
     addressLines: [
-      "আমার ডাক্তার, Manan Plaza,",
+      "Dhaka Clinic & Nursing Home, Manan Plaza,",
       "Kawlar (Bawrar Teck), Dakshinkhan, Dhaka, Bangladesh",
     ],
-    phone: "+880 1320-584090",
-    phoneHref: "tel:+8801320584090",
-    email: "mydoctor2004@gmail.com",
-    emailHref: "mailto:mydoctor2004@gmail.com",
+    phone: "+880 1738-308750",
+    phoneHref: "tel:+8801738308750",
+    email: "mahmudul213@gmail.com",
+    emailHref: "mailto:mahmudul213@gmail.com",
     workingHours: {
       weekdays: "Sat - Thu: 11AM - 9PM",
       friday: "Friday: Closed",
@@ -30,15 +30,15 @@ export const clientInfo = {
     },
     map: {
       src: "http://googleusercontent.com/maps.google.com/atoz-dental-location",
-      title: "My Doctor Location",
+      title: "Dhaka Clinic Location",
     },
     socialLinks: [
       {
         name: "Facebook",
-        href: "https://www.facebook.com/mydoctor2004",
+        href: "https://www.facebook.com/profile.php?id=100064414916897",
       },
-      { name: "Instagram", href: "https://instagram.com/mydoctor" },
-      { name: "Twitter", href: "https://twitter.com/mydoctor" },
+      { name: "Instagram", href: "https://instagram.com/dhakaclinic" },
+      { name: "Twitter", href: "https://twitter.com/dhakaclinic" },
     ],
     navigation: {
       links: [
@@ -158,7 +158,7 @@ export const clientInfo = {
     },
     image: {
       src: "https://images.unsplash.com/photo-1598256989800-fe5f95da9787?w=800&h=1000&fit=crop",
-      alt: "আমার ডাক্তার Specialist",
+      alt: "Dhaka Clinic Specialist",
     },
   },
   stats: [
@@ -230,7 +230,7 @@ export const clientInfo = {
     hero: {
       eyebrow: "Contact Us",
       titlePrefix: "Visit",
-      titleAccent: "আমার ডাক্তার",
+      titleAccent: "Dhaka Clinic",
       description:
         "Reach out to us for any queries related to dental care or appointments.",
     },
@@ -252,13 +252,13 @@ export const clientInfo = {
       placeholders: {
         name: "Full name",
         phone: "+880 1...",
-        email: "mydoctor2004@gmail.com",
+        email: "mahmudul213@gmail.com",
         message: "e.g. Interested in scaling or filling",
       },
       successToast: "Enquiry sent!",
     },
     info: {
-      title: "Contact আমার ডাক্তার",
+      title: "Contact Dhaka Clinic",
       addressTitle: "Our Clinic",
       phoneTitle: "Call Now",
       emailTitle: "Write to Us",
@@ -271,7 +271,7 @@ export const clientInfo = {
     servicesTitle: "Specialties",
     contactTitle: "Reach Us",
     copyrightPrefix: "©",
-    copyrightSuffix: "আমার ডাক্তার | My Doctor. All Rights Reserved.",
+    copyrightSuffix: "Dhaka Clinic & Nursing Home. All Rights Reserved.",
   },
   contactStrip: {
     eyebrow: "Find Us",
@@ -283,7 +283,7 @@ export const clientInfo = {
     hoursTitle: "Working Hours",
     map: {
       src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d243693.0693940436!2d90.1145965412588!3d23.788978258675044!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c6bb16fb9c0f%3A0xe1d54e013dd4b8f0!2sRafi%20Dental%20Care!5e1!3m2!1sen!2sbd!4v1775922098981!5m2!1sen!2sbd",
-      title: "My Doctor Map",
+      title: "Dhaka Clinic Map",
     },
   },
   servicesGrid: {
@@ -294,9 +294,9 @@ export const clientInfo = {
     bookButtonLabel: "Book Visit",
   },
   whyChooseUs: {
-    eyebrow: "The My Doctor Way",
-    titlePrefix: "Why My Doctor",
-    titleAccent: "",
+    eyebrow: "The Dhaka Clinic Way",
+    titlePrefix: "Why Dhaka",
+    titleAccent: "Clinic",
     features: [
       {
         title: "Expert Dentists",
@@ -318,7 +318,7 @@ export const clientInfo = {
     ],
   },
   whatsapp: {
-    headerTitle: "আমার ডাক্তার",
+    headerTitle: "Dhaka Clinic",
     headerSubtitle: "Dental Support",
     greeting: "Hello! Ready for a smile makeover? 👋",
     prompt: "Have a dental question or need an appointment?",
@@ -327,11 +327,11 @@ export const clientInfo = {
       { id: 1, text: "What is the cost of scaling?", emoji: "🦷" },
       { id: 2, text: "Do you offer root canal?", emoji: "✨" },
     ],
-    quickMessagePrefix: "Hello আমার ডাক্তার!",
+    quickMessagePrefix: "Hello Dhaka Clinic!",
     customMessage: "I'd like to consult about dental care at your clinic.",
     startChatLabel: "Chat via WhatsApp",
     ariaLabel: "WhatsApp Support",
-    whatsappNumber: "8801320584090",
+    whatsappNumber: "8801738308750",
     accentColor: "#25D366",
     accentHoverColor: "#20BD5A",
   },
@@ -344,7 +344,7 @@ export const clientInfo = {
       date: "Date",
       time: "Time",
     },
-    contactPrompt: "Questions? Call আমার ডাক্তার at",
+    contactPrompt: "Questions? Call Dhaka Clinic at",
     doneLabel: "Done",
   },
   doctorCard: {
@@ -378,7 +378,7 @@ export const clientInfo = {
     },
   },
   adminPage: {
-    titlePrefix: "আমার ডাক্তার",
+    titlePrefix: "Dhaka Clinic",
     titleAccent: "Admin Portal",
     logoutLabel: "Logout",
     stats: [
