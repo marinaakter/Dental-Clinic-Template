@@ -2,25 +2,25 @@ import { Award, Clock, Users } from "lucide-react";
 
 export const clientInfo = {
   brand: {
-    name: "A to Z Dental Clinic | Dhaka",
-    logoPrefix: "A to Z",
-    logoSuffix: "Dental Clinic",
+    name: "আমার ডাক্তার | My Doctor",
+    logoPrefix: "আমার",
+    logoSuffix: "ডাক্তার",
     area: "Kawlar (Bawrar Teck)",
     location: "Dakshinkhan, Dhaka, Bangladesh",
     tagline: "Professional Dental Care & Complete Oral Health Solutions",
     description:
-      "At A to Z Dental Clinic, we provide high-quality dental services with a focus on patient comfort and advanced treatment procedures. Your smile is our priority.",
+      "At আমার ডাক্তার (My Doctor), we provide high-quality dental services with a focus on patient comfort and advanced treatment procedures. Your smile is our priority.",
     awardLabel: "Dental Specialist",
     awardTitle: "Excellence in Dental Care 2025",
     awardSource: "Bangladesh Dental Society",
     addressLines: [
-      "A to Z Dental Clinic, Manan Plaza,",
+      "আমার ডাক্তার, Manan Plaza,",
       "Kawlar (Bawrar Teck), Dakshinkhan, Dhaka, Bangladesh",
     ],
-    phone: "+880 1764-393507",
-    phoneHref: "tel:+8801764393507",
-    email: "info@atozdental.com", // আপনি চাইলে drrasedulislam@gmail.com রাখতে পারেন
-    emailHref: "mailto:info@atozdental.com",
+    phone: "+880 1320-584090",
+    phoneHref: "tel:+8801320584090",
+    email: "mydoctor2004@gmail.com",
+    emailHref: "mailto:mydoctor2004@gmail.com",
     workingHours: {
       weekdays: "Sat - Thu: 11AM - 9PM",
       friday: "Friday: Closed",
@@ -30,15 +30,15 @@ export const clientInfo = {
     },
     map: {
       src: "http://googleusercontent.com/maps.google.com/atoz-dental-location",
-      title: "A to Z Dental Location",
+      title: "My Doctor Location",
     },
     socialLinks: [
       {
         name: "Facebook",
-        href: "https://www.facebook.com/profile.php?id=61584618136769",
+        href: "https://www.facebook.com/mydoctor2004",
       },
-      { name: "Instagram", href: "https://instagram.com/atozdental" },
-      { name: "Twitter", href: "https://twitter.com/atozdental" },
+      { name: "Instagram", href: "https://instagram.com/mydoctor" },
+      { name: "Twitter", href: "https://twitter.com/mydoctor" },
     ],
     navigation: {
       links: [
@@ -70,7 +70,6 @@ export const clientInfo = {
     ],
   },
   theme: {
-    // ... theme কন্টেন্ট একই থাকবে ...
     colors: {
       background: "bg-pearl",
       surface: "bg-white",
@@ -92,7 +91,6 @@ export const clientInfo = {
       borderInverse: "border-pearl/10",
     },
     hero: {
-      // ... পূর্বের হিরো সেকশন স্টাইলসমূহ ...
       sectionClassName: "relative min-h-screen bg-pearl overflow-hidden pt-20",
       backgroundDecorationsClassName: "absolute inset-0 overflow-hidden",
       backgroundAccentTopClassName:
@@ -160,7 +158,7 @@ export const clientInfo = {
     },
     image: {
       src: "https://images.unsplash.com/photo-1598256989800-fe5f95da9787?w=800&h=1000&fit=crop",
-      alt: "A to Z Dental Clinic Specialist",
+      alt: "আমার ডাক্তার Specialist",
     },
   },
   stats: [
@@ -232,7 +230,7 @@ export const clientInfo = {
     hero: {
       eyebrow: "Contact Us",
       titlePrefix: "Visit",
-      titleAccent: "A to Z Dental",
+      titleAccent: "আমার ডাক্তার",
       description:
         "Reach out to us for any queries related to dental care or appointments.",
     },
@@ -254,13 +252,13 @@ export const clientInfo = {
       placeholders: {
         name: "Full name",
         phone: "+880 1...",
-        email: "info@atozdental.com",
+        email: "mydoctor2004@gmail.com",
         message: "e.g. Interested in scaling or filling",
       },
       successToast: "Enquiry sent!",
     },
     info: {
-      title: "Contact A to Z Dental",
+      title: "Contact আমার ডাক্তার",
       addressTitle: "Our Clinic",
       phoneTitle: "Call Now",
       emailTitle: "Write to Us",
@@ -273,7 +271,7 @@ export const clientInfo = {
     servicesTitle: "Specialties",
     contactTitle: "Reach Us",
     copyrightPrefix: "©",
-    copyrightSuffix: "A to Z Dental Clinic. All Rights Reserved.",
+    copyrightSuffix: "আমার ডাক্তার | My Doctor. All Rights Reserved.",
   },
   contactStrip: {
     eyebrow: "Find Us",
@@ -285,7 +283,7 @@ export const clientInfo = {
     hoursTitle: "Working Hours",
     map: {
       src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d243693.0693940436!2d90.1145965412588!3d23.788978258675044!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c6bb16fb9c0f%3A0xe1d54e013dd4b8f0!2sRafi%20Dental%20Care!5e1!3m2!1sen!2sbd!4v1775922098981!5m2!1sen!2sbd",
-      title: "A to Z Dental Map",
+      title: "My Doctor Map",
     },
   },
   servicesGrid: {
@@ -296,9 +294,9 @@ export const clientInfo = {
     bookButtonLabel: "Book Visit",
   },
   whyChooseUs: {
-    eyebrow: "The A to Z Way",
-    titlePrefix: "Why A to Z",
-    titleAccent: "Dental",
+    eyebrow: "The My Doctor Way",
+    titlePrefix: "Why My Doctor",
+    titleAccent: "",
     features: [
       {
         title: "Expert Dentists",
@@ -320,7 +318,7 @@ export const clientInfo = {
     ],
   },
   whatsapp: {
-    headerTitle: "A to Z Dental",
+    headerTitle: "আমার ডাক্তার",
     headerSubtitle: "Dental Support",
     greeting: "Hello! Ready for a smile makeover? 👋",
     prompt: "Have a dental question or need an appointment?",
@@ -329,11 +327,11 @@ export const clientInfo = {
       { id: 1, text: "What is the cost of scaling?", emoji: "🦷" },
       { id: 2, text: "Do you offer root canal?", emoji: "✨" },
     ],
-    quickMessagePrefix: "Hello A to Z Dental!",
+    quickMessagePrefix: "Hello আমার ডাক্তার!",
     customMessage: "I'd like to consult about dental care at your clinic.",
     startChatLabel: "Chat via WhatsApp",
     ariaLabel: "WhatsApp Support",
-    whatsappNumber: "8801764393507",
+    whatsappNumber: "8801320584090",
     accentColor: "#25D366",
     accentHoverColor: "#20BD5A",
   },
@@ -346,7 +344,7 @@ export const clientInfo = {
       date: "Date",
       time: "Time",
     },
-    contactPrompt: "Questions? Call A to Z Dental at",
+    contactPrompt: "Questions? Call আমার ডাক্তার at",
     doneLabel: "Done",
   },
   doctorCard: {
@@ -380,7 +378,7 @@ export const clientInfo = {
     },
   },
   adminPage: {
-    titlePrefix: "A to Z Dental",
+    titlePrefix: "আমার ডাক্তার",
     titleAccent: "Admin Portal",
     logoutLabel: "Logout",
     stats: [
