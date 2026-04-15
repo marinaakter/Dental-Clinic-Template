@@ -2,22 +2,22 @@ import { Award, Clock, Users } from "lucide-react";
 
 export const clientInfo = {
   brand: {
-    name: "Family Dental Clinic",
-    logoPrefix: "Family",
+    name: "Siraj Dental Clinic",
+    logoPrefix: "Siraj",
     logoSuffix: "Dental",
-    area: "Saidpur",
-    location: "Saidpur, Nilphamari, Bangladesh",
-    tagline: "Your Family's Smile Is Our Priority",
+    area: "Tangail",
+    location: "Tangail, Bangladesh",
+    tagline: "Expert Dental Care for a Brighter Smile",
     description:
-      "At Family Dental Clinic, we provide high-quality dental services with a focus on patient comfort and advanced treatment procedures. Your smile is our priority.",
+      "At Siraj Dental Clinic, we provide high-quality dental services with a focus on patient comfort and advanced treatment procedures. Your smile is our priority.",
     awardLabel: "Dental Specialist",
     awardTitle: "Excellence in Dental Care 2025",
     awardSource: "Bangladesh Dental Society",
-    addressLines: ["Family Dental Clinic,", "Saidpur, Nilphamari, Bangladesh"],
-    phone: "+880 1715-899895",
-    phoneHref: "tel:+8801715899895",
-    email: "shefaulalam80@gmail.com",
-    emailHref: "mailto:shefaulalam80@gmail.com",
+    addressLines: ["Siraj Dental Clinic,", "Tangail, Bangladesh"],
+    phone: "+880 1729-300723",
+    phoneHref: "tel:+8801729300723",
+    email: "shirajdental@gmail.com",
+    emailHref: "mailto:shirajdental@gmail.com",
     workingHours: {
       weekdays: "Sat - Thu: 11AM - 9PM",
       friday: "Friday: Closed",
@@ -26,16 +26,16 @@ export const clientInfo = {
       fridayStatus: "Closed",
     },
     map: {
-      src: "http://googleusercontent.com/maps.google.com/family-dental-saidpur",
-      title: "Family Dental Clinic Location",
+      src: "http://googleusercontent.com/maps.google.com/siraj-dental-location",
+      title: "Siraj Dental Clinic Location",
     },
     socialLinks: [
       {
         name: "Facebook",
-        href: "https://www.facebook.com/profile.php?id=100054546695308",
+        href: "https://www.facebook.com/sirajdentalclinicc",
       },
-      { name: "Instagram", href: "https://instagram.com/familydental" },
-      { name: "Twitter", href: "https://twitter.com/familydental" },
+      { name: "Instagram", href: "https://instagram.com/sirajdental" },
+      { name: "Twitter", href: "https://twitter.com/sirajdental" },
     ],
     navigation: {
       links: [
@@ -155,7 +155,7 @@ export const clientInfo = {
     },
     image: {
       src: "https://images.unsplash.com/photo-1598256989800-fe5f95da9787?w=800&h=1000&fit=crop",
-      alt: "Family Dental Specialist",
+      alt: "Siraj Dental Specialist",
     },
   },
   stats: [
@@ -227,7 +227,7 @@ export const clientInfo = {
     hero: {
       eyebrow: "Contact Us",
       titlePrefix: "Visit",
-      titleAccent: "Family Dental",
+      titleAccent: "Siraj Dental",
       description:
         "Reach out to us for any queries related to dental care or appointments.",
     },
@@ -248,38 +248,38 @@ export const clientInfo = {
       },
       placeholders: {
         name: "Full name",
-        phone: "+880 1715-...",
-        email: "shefaulalam80@gmail.com",
+        phone: "+880 1729-...",
+        email: "shirajdental@gmail.com",
         message: "e.g. Interested in scaling or filling",
       },
       successToast: "Enquiry sent!",
     },
     info: {
-      title: "Contact Family Dental Clinic",
+      title: "Contact Siraj Dental Clinic",
       addressTitle: "Our Clinic",
       phoneTitle: "Call Now",
       emailTitle: "Write to Us",
     },
   },
   footer: {
-    brandDescription: "Transforming smiles with expert dental care in Saidpur.",
+    brandDescription: "Transforming smiles with expert dental care in Tangail.",
     quickLinksTitle: "Navigation",
     servicesTitle: "Specialties",
     contactTitle: "Reach Us",
     copyrightPrefix: "©",
-    copyrightSuffix: "Family Dental Clinic. All Rights Reserved.",
+    copyrightSuffix: "Siraj Dental Clinic. All Rights Reserved.",
   },
   contactStrip: {
     eyebrow: "Find Us",
     titlePrefix: "Located In",
-    titleAccent: "Saidpur",
+    titleAccent: "Tangail",
     addressTitle: "Address",
     phoneTitle: "Phone",
     emailTitle: "Email",
     hoursTitle: "Working Hours",
     map: {
-      src: "http://googleusercontent.com/maps.google.com/family-dental-location",
-      title: "Family Dental Clinic Map",
+      src: "http://googleusercontent.com/maps.google.com/siraj-dental-location",
+      title: "Siraj Dental Clinic Map",
     },
   },
   servicesGrid: {
@@ -290,8 +290,8 @@ export const clientInfo = {
     bookButtonLabel: "Book Visit",
   },
   whyChooseUs: {
-    eyebrow: "The Family Dental Way",
-    titlePrefix: "Why Family",
+    eyebrow: "The Siraj Dental Way",
+    titlePrefix: "Why Siraj",
     titleAccent: "Dental",
     features: [
       {
@@ -314,7 +314,7 @@ export const clientInfo = {
     ],
   },
   whatsapp: {
-    headerTitle: "Family Dental",
+    headerTitle: "Siraj Dental",
     headerSubtitle: "Dental Support",
     greeting: "Hello! Ready for a smile makeover? 👋",
     prompt: "Have a dental question or need an appointment?",
@@ -323,11 +323,11 @@ export const clientInfo = {
       { id: 1, text: "What is the cost of scaling?", emoji: "🦷" },
       { id: 2, text: "Do you offer root canal?", emoji: "✨" },
     ],
-    quickMessagePrefix: "Hello Family Dental Clinic!",
+    quickMessagePrefix: "Hello Siraj Dental Clinic!",
     customMessage: "I'd like to consult about dental care at your clinic.",
     startChatLabel: "Chat via WhatsApp",
     ariaLabel: "WhatsApp Support",
-    whatsappNumber: "8801715899895",
+    whatsappNumber: "8801729300723",
     accentColor: "#25D366",
     accentHoverColor: "#20BD5A",
   },
@@ -340,7 +340,7 @@ export const clientInfo = {
       date: "Date",
       time: "Time",
     },
-    contactPrompt: "Questions? Call Family Dental Clinic at",
+    contactPrompt: "Questions? Call Siraj Dental Clinic at",
     doneLabel: "Done",
   },
   doctorCard: {
@@ -374,7 +374,7 @@ export const clientInfo = {
     },
   },
   adminPage: {
-    titlePrefix: "Family Dental",
+    titlePrefix: "Siraj Dental",
     titleAccent: "Admin Portal",
     logoutLabel: "Logout",
     stats: [
