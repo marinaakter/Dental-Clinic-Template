@@ -2,25 +2,22 @@ import { Award, Clock, Users } from "lucide-react";
 
 export const clientInfo = {
   brand: {
-    name: "Dhaka Clinic & Nursing Home",
-    logoPrefix: "Dhaka",
-    logoSuffix: "Clinic",
-    area: "Kawlar (Bawrar Teck)",
-    location: "Dakshinkhan, Dhaka, Bangladesh",
-    tagline: "Professional Dental Care & Complete Oral Health Solutions",
+    name: "Family Dental Clinic",
+    logoPrefix: "Family",
+    logoSuffix: "Dental",
+    area: "Saidpur",
+    location: "Saidpur, Nilphamari, Bangladesh",
+    tagline: "Your Family's Smile Is Our Priority",
     description:
-      "At Dhaka Clinic & Nursing Home, we provide high-quality dental services with a focus on patient comfort and advanced treatment procedures. Your smile is our priority.",
+      "At Family Dental Clinic, we provide high-quality dental services with a focus on patient comfort and advanced treatment procedures. Your smile is our priority.",
     awardLabel: "Dental Specialist",
     awardTitle: "Excellence in Dental Care 2025",
     awardSource: "Bangladesh Dental Society",
-    addressLines: [
-      "Dhaka Clinic & Nursing Home, Manan Plaza,",
-      "Kawlar (Bawrar Teck), Dakshinkhan, Dhaka, Bangladesh",
-    ],
-    phone: "+880 1738-308750",
-    phoneHref: "tel:+8801738308750",
-    email: "mahmudul213@gmail.com",
-    emailHref: "mailto:mahmudul213@gmail.com",
+    addressLines: ["Family Dental Clinic,", "Saidpur, Nilphamari, Bangladesh"],
+    phone: "+880 1715-899895",
+    phoneHref: "tel:+8801715899895",
+    email: "shefaulalam80@gmail.com",
+    emailHref: "mailto:shefaulalam80@gmail.com",
     workingHours: {
       weekdays: "Sat - Thu: 11AM - 9PM",
       friday: "Friday: Closed",
@@ -29,16 +26,16 @@ export const clientInfo = {
       fridayStatus: "Closed",
     },
     map: {
-      src: "http://googleusercontent.com/maps.google.com/atoz-dental-location",
-      title: "Dhaka Clinic Location",
+      src: "http://googleusercontent.com/maps.google.com/family-dental-saidpur",
+      title: "Family Dental Clinic Location",
     },
     socialLinks: [
       {
         name: "Facebook",
-        href: "https://www.facebook.com/profile.php?id=100064414916897",
+        href: "https://www.facebook.com/profile.php?id=100054546695308",
       },
-      { name: "Instagram", href: "https://instagram.com/dhakaclinic" },
-      { name: "Twitter", href: "https://twitter.com/dhakaclinic" },
+      { name: "Instagram", href: "https://instagram.com/familydental" },
+      { name: "Twitter", href: "https://twitter.com/familydental" },
     ],
     navigation: {
       links: [
@@ -158,7 +155,7 @@ export const clientInfo = {
     },
     image: {
       src: "https://images.unsplash.com/photo-1598256989800-fe5f95da9787?w=800&h=1000&fit=crop",
-      alt: "Dhaka Clinic Specialist",
+      alt: "Family Dental Specialist",
     },
   },
   stats: [
@@ -230,7 +227,7 @@ export const clientInfo = {
     hero: {
       eyebrow: "Contact Us",
       titlePrefix: "Visit",
-      titleAccent: "Dhaka Clinic",
+      titleAccent: "Family Dental",
       description:
         "Reach out to us for any queries related to dental care or appointments.",
     },
@@ -251,39 +248,38 @@ export const clientInfo = {
       },
       placeholders: {
         name: "Full name",
-        phone: "+880 1...",
-        email: "mahmudul213@gmail.com",
+        phone: "+880 1715-...",
+        email: "shefaulalam80@gmail.com",
         message: "e.g. Interested in scaling or filling",
       },
       successToast: "Enquiry sent!",
     },
     info: {
-      title: "Contact Dhaka Clinic",
+      title: "Contact Family Dental Clinic",
       addressTitle: "Our Clinic",
       phoneTitle: "Call Now",
       emailTitle: "Write to Us",
     },
   },
   footer: {
-    brandDescription:
-      "Transforming smiles with expert dental care in Kawlar, Dakshinkhan.",
+    brandDescription: "Transforming smiles with expert dental care in Saidpur.",
     quickLinksTitle: "Navigation",
     servicesTitle: "Specialties",
     contactTitle: "Reach Us",
     copyrightPrefix: "©",
-    copyrightSuffix: "Dhaka Clinic & Nursing Home. All Rights Reserved.",
+    copyrightSuffix: "Family Dental Clinic. All Rights Reserved.",
   },
   contactStrip: {
     eyebrow: "Find Us",
     titlePrefix: "Located In",
-    titleAccent: "Dhaka",
+    titleAccent: "Saidpur",
     addressTitle: "Address",
     phoneTitle: "Phone",
     emailTitle: "Email",
     hoursTitle: "Working Hours",
     map: {
-      src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d243693.0693940436!2d90.1145965412588!3d23.788978258675044!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c6bb16fb9c0f%3A0xe1d54e013dd4b8f0!2sRafi%20Dental%20Care!5e1!3m2!1sen!2sbd!4v1775922098981!5m2!1sen!2sbd",
-      title: "Dhaka Clinic Map",
+      src: "http://googleusercontent.com/maps.google.com/family-dental-location",
+      title: "Family Dental Clinic Map",
     },
   },
   servicesGrid: {
@@ -294,9 +290,9 @@ export const clientInfo = {
     bookButtonLabel: "Book Visit",
   },
   whyChooseUs: {
-    eyebrow: "The Dhaka Clinic Way",
-    titlePrefix: "Why Dhaka",
-    titleAccent: "Clinic",
+    eyebrow: "The Family Dental Way",
+    titlePrefix: "Why Family",
+    titleAccent: "Dental",
     features: [
       {
         title: "Expert Dentists",
@@ -318,7 +314,7 @@ export const clientInfo = {
     ],
   },
   whatsapp: {
-    headerTitle: "Dhaka Clinic",
+    headerTitle: "Family Dental",
     headerSubtitle: "Dental Support",
     greeting: "Hello! Ready for a smile makeover? 👋",
     prompt: "Have a dental question or need an appointment?",
@@ -327,11 +323,11 @@ export const clientInfo = {
       { id: 1, text: "What is the cost of scaling?", emoji: "🦷" },
       { id: 2, text: "Do you offer root canal?", emoji: "✨" },
     ],
-    quickMessagePrefix: "Hello Dhaka Clinic!",
+    quickMessagePrefix: "Hello Family Dental Clinic!",
     customMessage: "I'd like to consult about dental care at your clinic.",
     startChatLabel: "Chat via WhatsApp",
     ariaLabel: "WhatsApp Support",
-    whatsappNumber: "8801738308750",
+    whatsappNumber: "8801715899895",
     accentColor: "#25D366",
     accentHoverColor: "#20BD5A",
   },
@@ -344,7 +340,7 @@ export const clientInfo = {
       date: "Date",
       time: "Time",
     },
-    contactPrompt: "Questions? Call Dhaka Clinic at",
+    contactPrompt: "Questions? Call Family Dental Clinic at",
     doneLabel: "Done",
   },
   doctorCard: {
@@ -378,7 +374,7 @@ export const clientInfo = {
     },
   },
   adminPage: {
-    titlePrefix: "Dhaka Clinic",
+    titlePrefix: "Family Dental",
     titleAccent: "Admin Portal",
     logoutLabel: "Logout",
     stats: [
